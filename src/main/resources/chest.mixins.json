@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.wijk.chest.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WijkChestMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
