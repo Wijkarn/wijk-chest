@@ -7,6 +7,7 @@ import me.shedaniel.autoconfig.annotation.Config;
 @Config(name = WijkChest.MOD_ID)
 public class ChestModConfig implements ConfigData {
     public boolean zombifiedPiglinXP = true;
+    public boolean allEnchantments = true;
 
     /*
     @ConfigEntry.Gui.CollapsibleObject

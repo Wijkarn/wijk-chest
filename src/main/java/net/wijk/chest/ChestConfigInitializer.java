@@ -9,7 +9,7 @@ import static net.wijk.chest.WijkChest.*;
 public class ChestConfigInitializer {
     public static ChestModConfig modConfig = null;
 
-    public static void initializeConfig(){
+    public static void initializeConfig() {
         AutoConfig.register(ChestModConfig.class, GsonConfigSerializer::new);
         ChestModConfig config = AutoConfig.getConfigHolder(ChestModConfig.class).getConfig();
         try {
@@ -23,5 +23,9 @@ public class ChestConfigInitializer {
     @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     public static boolean getZombifiedPiglinXP() {
         return modConfig != null && modConfig.zombifiedPiglinXP;
+    }
+
+    public static boolean getAllEnchantments() {
+        return modConfig != null && modConfig.allEnchantments;
     }
 }
