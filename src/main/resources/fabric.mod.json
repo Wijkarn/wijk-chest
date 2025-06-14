@@ -3,9 +3,9 @@
 	"id": "chest",
 	"version": "${version}",
 	"name": "Wijk Chest",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Random things",
 	"authors": [
-		"Me!"
+		"Wijk"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"net.wijk.chest.WijkChestModClient"
+		],
+		"modmenu": [
+			"net.wijk.chest.ChestModMenuIntegration"
 		]
 	},
 	"mixins": [

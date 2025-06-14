@@ -12,5 +12,6 @@ public class WijkChest implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Initialized " + MOD_ID);
+        ChestConfigInitializer.initializeConfig();
     }
 }
