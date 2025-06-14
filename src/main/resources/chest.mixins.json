@@ -3,7 +3,8 @@
   "package": "net.wijk.chest.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "WijkChestMixin"
+    "WijkChestMixin",
+    "ZombifiedPiglinMixin"
   ],
   "injectors": {
     "defaultRequire": 1
