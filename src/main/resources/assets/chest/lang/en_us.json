@@ -1,4 +1,5 @@
 {
-  "text.autoconfig.chest.option.zombifiedPiglinXP": "Restore old zombified piglin anger xp",
-  "text.autoconfig.chest.title": "Wijk's tweaks"
+  "text.autoconfig.chest.option.zombifiedPiglinXP": "Restore old zombified piglin anger xp.",
+  "text.autoconfig.chest.title": "Wijk's tweaks",
+  "text.autoconfig.chest.option.allEnchantments": "All enchantments available on all types of armor, tools and weapons."
 }
