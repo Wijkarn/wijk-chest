@@ -2,7 +2,7 @@ package net.wijk.chest.mixin;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.registry.entry.RegistryEntry;
-import net.wijk.chest.ChestConfigInitializer;
+import net.wijk.chest.config.ChestConfigInitializer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

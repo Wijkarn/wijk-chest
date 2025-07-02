@@ -1,4 +1,4 @@
-package net.wijk.chest;
+package net.wijk.chest.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

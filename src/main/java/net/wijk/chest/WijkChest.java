@@ -2,6 +2,8 @@ package net.wijk.chest;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.wijk.chest.config.ChestConfigInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

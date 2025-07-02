@@ -25,7 +25,7 @@
 			"net.wijk.chest.WijkChestModClient"
 		],
 		"modmenu": [
-			"net.wijk.chest.ChestModMenuIntegration"
+			"net.wijk.chest.config.ChestModMenuIntegration"
 		]
 	},
 	"mixins": [

@@ -1,8 +1,9 @@
-package net.wijk.chest;
+package net.wijk.chest.config;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
+import net.wijk.chest.WijkChest;
 
 import static net.wijk.chest.WijkChest.*;
 

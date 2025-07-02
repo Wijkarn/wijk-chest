@@ -1,7 +1,8 @@
-package net.wijk.chest;
+package net.wijk.chest.config;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
+import net.wijk.chest.WijkChest;
 //import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
 @Config(name = WijkChest.MOD_ID)
