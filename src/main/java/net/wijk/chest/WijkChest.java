@@ -15,5 +15,6 @@ public class WijkChest implements ModInitializer {
     public void onInitialize() {
         LOGGER.info("Initialized " + MOD_ID);
         ChestConfigInitializer.initializeConfig();
+        CommandRegistrationCallback.EVENT.register(WijkChestGit::register);
     }
 }
