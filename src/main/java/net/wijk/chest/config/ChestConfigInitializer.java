@@ -29,4 +29,8 @@ public class ChestConfigInitializer {
     public static boolean getAllEnchantments() {
         return modConfig != null && modConfig.allEnchantments;
     }
+
+    public static boolean getVillagerMultipleCuresTrade() {
+        return modConfig != null && modConfig.villagerMultipleCuresTrade;
+    }
 }

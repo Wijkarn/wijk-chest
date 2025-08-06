@@ -1,5 +1,10 @@
 {
-  "text.autoconfig.chest.option.zombifiedPiglinXP": "Restore old zombified piglin anger xp.",
   "text.autoconfig.chest.title": "Wijk's tweaks",
-  "text.autoconfig.chest.option.allEnchantments": "All enchantments available on all types of armor, tools and weapons."
+  "text.autoconfig.chest.option.zombifiedPiglinXP": "Restore old zombified piglin anger xp.",
+  "text.autoconfig.chest.option.zombifiedPiglinXP.@Tooltip": "Zombified piglins drop XP and player loot when killed while angry, even if not killed by a player. The was a bug that was fixed in snapshot 25w02a",
+  "text.autoconfig.chest.option.allEnchantments": "All enchantments available on all types of armor, tools and weapons.",
+  "text.autoconfig.chest.option.allEnchantments.@Tooltip": "Put any enchantment on any armor, tools or weapons.",
+  "text.autoconfig.chest.option.villagerMultipleCuresTrade": "Cure villagers multiple times and still get the discounts!",
+  "text.autoconfig.chest.option.villagerMultipleCuresTrade.@Tooltip[0]": "Restores the \"bug\" MC-181190, where villagers would continue to lowering prices after being cured. This was fixed in the snapshot 23w31a.",
+  "text.autoconfig.chest.option.villagerMultipleCuresTrade.@Tooltip[1]": "⚠ Requires a game/server restart to apply changes."
 }

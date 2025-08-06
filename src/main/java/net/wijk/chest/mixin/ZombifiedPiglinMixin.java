@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+// Original code from https://github.com/litetex-oss/mcm-zombified-piglin-restore-anger-loot
 @Mixin(ZombifiedPiglinEntity.class)
 @SuppressWarnings("javabugs:S6320")
 public abstract class ZombifiedPiglinMixin {
